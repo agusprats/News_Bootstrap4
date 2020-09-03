@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Practico Utn</title>
+    <!-- GOOGLE FONT -->
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet" />
+    <!-- BOOTSTRAP 4 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- SCROOLL REVEAL JS LIBRARY CDN -->
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+
+    <!-- NAVIGATION -->
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow p-3 mb-5 bg-white rounded">
+      
+      <a class="navbar-brand" href="#">Iphone News</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+    
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+          <a class="nav-item nav-link" href="#header">Home</a>
+          <a class="nav-item nav-link" href="#info-one">Photo Tips</a>
+          <a class="nav-item nav-link" href="#contact">Contacto</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- SECTION -->
+  <header>
+    <div class="container" id="contenedor">
+      <section id="header">
+        <div class="row">
+          <div class="col-md-6 col-sm-6">
+            <div class="header-content-left">
+              <div class="shadow-sm p-3 mb-5 bg-white rounded">
+              <img src="img/image1.png" style="width: 100%;">
+            </div>
+            </div>  
+          </div>
+
+          <div class="col-md-6 col-sm-6">
+            <div class="header-content-right">
+              <h4 class="display-4">iPhone SE<br/>
+                Un iPhone increíble.<br/>
+                Por menos...</h4>
+              
+              <a href="#" class="btn btn-outline-secondary header-btn btn-lg mt-2" data-toggle="modal" data-target="#Modal1">Read More</a>
+            </div>
+          </div>
+        </div>
+    </section>
+  </div>
+</header>
+
+<!--Inicio Modal-->
+<div class="modal fade" id="Modal1">
+  <div class="modal-dialog">
+    <!--Inicio Modal Content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Iphone SE</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Amet vero earum quis modi ad? Voluptate id nihil harum mollitia exercitationem, dolores mollitia minus voluptates</p>
+        <p>Aut fugit repudiandae consectetur in obcaecati doloremque praesentium ratione.</p>
+        <p>Amet vero earum quis modi ad? Voluptate id nihil harum mollitia exercitationem, dolores mollitia minus voluptates</p>
+        <img src="img/10.png">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Comienzo Slides-->
+    <section id="slides">
+      <h3>Ultimos lanzamientos</h3>
+      <h4>Galería de fotos </h4>
+      <div class="container shadow p-3 mb-5 bg-white rounded">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-interval="3000">
+              <img src="img/3.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-interval="2500">
+              <img src="img/4.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-interval="2500">
+              <img src="img/5.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+<!--Controladores Slide-->
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+<!--fin Slides / Comienzo photo tips-->
+    <section id="info-one">
+      <div class="container">
+        <div class="shadow p-3 mb-5 bg-white rounded">
+        <div class="row mt-5">
+          <div class="col-md-6">
+            <div class="info-left">
+              <img src="img/image2.png" style="width: 100%">
+            </div>
+          </div>
+          <div class="col-md-6 my-auto">
+            <div class="info-right">
+              <h2>Photo Tips del mes.</h2>
+              <p>El primer paso para poder sacar partido de una cámara es conocerla bien, tanto si es una réflex como, en este caso, la del móvil. Una visita a la web del fabricante nos dará datos clave que son importantes antes de empezar a disparar.</p>
+              <a href="#" class="btn btn-outline-secondary btn-lg">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <section id="info-two">
+      <div class="container">
+        <div class="row my-5">
+          <div class="col-md-4">
+            <h2>Concurso Photo-Iphone</h2>
+            <p>El tema elegido para este mes es la libertad.<br/> 
+              Algo esencial que dimos siempre por sentado en este país, 
+              ,y que hoy, después de tantos meses de confinamiento, y sin evidencia seria y científica que respalde la extrema medida de 
+              tratar al universo de la población argentina como inmuno-deprimida y encerrarla, nos preguntamos si acaso volverá.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <h2></h2>
+            <p>El atropello a los derechos constitucionales y garantías por parte de los "representantes del pueblo", no es sino un terrorismo de estado alentado por medios pagados, ellos son los periodistas del terror. Se suma la cobardía del Poder Judicial y Legislativo, médicos y personal sanitario mercenarios, que falsean los datos y toman como cierto los resultados de un test que no sirve para diagnóstico. No podría faltar la policía para culminar esta fiesta de la tiranía, propaganda y cobardía.</p>
+          </div>
+          <div class="col-md-4">
+            <h2></h2>
+            <p>La ceguera de quienes nos someten es tan grande, que no tienen en cuenta, que la cárcel que están construyendo, ES PARA TODOS. Será para sus padres, hermanos, hijos, nietos, amigos. <br/> Ese bozal que impide respirar también le hace daño a sus "seres queridos".<br/> 
+            Cuéntanos a través de la imgagen tu vivencia de esta anormalidad, y recuerda siempre que la VERDAD nos hace libres.
+            Envía tu foto a zzzz@zzz.com</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+<!--Inicio Cards-->
+<Section id="cards">
+<div class="container" id="contenedor">
+  <h1 class="display-4">Iphone usados</h1>
+  <h3>Características y precios de base</h3>
+  
+    <div class="card-deck">
+      <div class="col-md-6">
+        <div class="card shadow-sm p-3 mb-5 bg-white rounded">
+        <img src="img/6.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">iPhone 11 Pro</h5>
+          <p class="card-text">Triple-camera <br/>(Ultra Wide, Wide, Telephoto).5.8” or 6.5” Super Retina</p>
+          <p class="card-text"><small class="text-muted">Usado desde $450</small></p>
+        </div>
+      </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card  shadow-sm p-3 mb-5 bg-white rounded">
+        <img src="img/7.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Iphone SE</h5>
+          <p class="card-text">Single-camera system
+            (Wide)<br/>4.7” Retina HD display<br/> and more....</p>
+          <p class="card-text"><small class="text-muted">Usado desde $300</small></p>
+        </div>
+      </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card  shadow-sm p-3 mb-5 bg-white rounded">
+        <img src="img/8.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Iphone 11</h5>
+          <p class="card-text">Dual-camera system (Ultra Wide, Wide).6.1” Liquid Retina HD display3</p>
+          <p class="card-text"><small class="text-muted">Usado desde $400</small></p>
+        </div>
+      </div>
+      </div>
+
+      <div class="col-md-6">
+      <div class="card shadow-sm p-3 mb-5 bg-white rounded">
+        <img src="img/9.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Iphone Xr</h5>
+          <p class="card-text">Single-camera system
+            (Wide).6.1” Liquid Retina HD display3</p>
+          <p class="card-text"><small class="text-muted">Usado desde $380</small></p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</Section>
+<!--Inicio Contact-->
+<section class="container" id="contact">
+  <form>
+    <h4>FORMULARIO DE CONTACTO</h4>
+    <div class="form-row">
+      <div class="col-md-6 mb-3">
+        <label for="validationDefault01">Ingrese su Nombre</label>
+        <input type="text" class="form-control" id="validationDefault01" placeholder="Nombre *" value="" required>
+      </div>
+      
+      <div class="col-md-6 mb-3">
+        <label for="validationDefault02">Ingrese su e-Mail</label>
+        <input type="email"  class="form-control" id="validationDefault02" placeholder="Email *" value="" required>
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="col-md-6 mb-3">
+        <label for="validationDefault03">Ingrese un número de teléfono</label>
+        <input type="tel"  class="form-control" placeholder="Telefono *" id="validationDefault03" required>
+      </div>
+      <div class="col-md-6">
+        <label for="validationDefault01">Escriba su mensaje</label>
+        <div class="form-group form-group-textarea mb-md-0">
+            <textarea class="form-control" id="message" placeholder="Mensaje *" required="required" data-validation-required-message="Please enter a message."></textarea>
+            <p class="help-block text-danger"></p>
+            <button class="btn btn-primary btn-dark text-uppercase" type="submit">Enviar</button>
+        </div> 
+      </div>
+    </div> 
+  </form>
+</section>
+<!--Fin Contact
+
+<!-- Footer-->
+    <footer class="footer py-4">
+      <div class="container">
+        <h5>2020 @IphoneNews  </h5>
+      </div>
+  </footer>
+
+
+    <!-- SCRIPTS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,64 @@
+body {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.navbar-brand {
+  font-size: 25px;
+  color: #000;
+  font-weight: bold;
+}
+.nav-link {
+  font-size: 20px;
+}
+
+.modal-body img{
+  align-content: center;
+  padding: 20%;
+ }
+
+#header {
+  margin-top: 100px;
+}
+
+#slides {
+  background: #f1f1f1;
+  padding: 50px 0 30px 0;
+  text-align:center;
+  margin-top: 30px;
+}
+#slides h4 {
+  margin-bottom: 20px;
+}
+
+#cards {
+  background: #f1f1f1;
+}
+
+#cards h1, h3{
+  text-align: center;
+}
+
+#contact {
+  background: #283048;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #859398, #283048);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #859398, #283048); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 20px;
+  ;
+}
+
+#contact h4{
+  text-align: center;
+  font-size: 28px;
+  color: #fff;
+}
+
+#contact label{
+  font-size: 20px;
+}
+
+footer {
+  background: #f1f1f1;
+}
