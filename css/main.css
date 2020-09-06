@@ -10,13 +10,20 @@ body {
 .nav-link {
   font-size: 20px;
 }
-
+/*
 .modal-body img{
   align-content: center;
-  padding: 20%;
+  padding: 10%;
  }
+*/
+.modal-body h5{
+  padding: 15px;
+}
+.modal-title {
+  font-size: 25px;
+}
 
-#header {
+ #header {
   margin-top: 80px;
 }
 
